@@ -441,8 +441,10 @@
 
   <!-- SaberMod toolchain -->
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="sm-kk-mr1" />
+  <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="sm-jb-mr2" />
+  <!--
   <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
+  -->
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="sm-jb-mr2"/>
 
   <!-- OmniRom -->
@@ -458,10 +460,6 @@
   
   <!-- togari-->
   <project path="device/sony/togari" name="SlimSaber-togari/android_device_sony_togari" remote="github" revision="cm-11.0"/>
-  
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
-  
-  
   
 
 </manifest>

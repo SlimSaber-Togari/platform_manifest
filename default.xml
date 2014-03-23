@@ -53,7 +53,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
+  <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
@@ -234,8 +234,8 @@
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/av" name="SlimSaber/frameworks_av" remote="github" revision="kk4.4" />
+  <project path="frameworks/base" name="SlimSaber/frameworks_base" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="SlimSaber/android_frameworks_compile_slang" remote="github" revision="kk4.4" />
@@ -387,7 +387,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
+  <project path="system/core" name="SlimSaber/android_system_core" remote="github" revision="kk4.4" />
   <project path="system/extras" name="SlimSaber/android_system_extras" remote="github" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />

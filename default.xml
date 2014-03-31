@@ -463,7 +463,6 @@
 
   <!-- SaberMod toolchain -->
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilt/linux-x86/toolchain/sm-arm-eabi-4.7" remote="github" revision="sm-jb-mr2"/>
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
   <!--
   <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilt/linux-x86/toolchain/sm-arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
@@ -487,6 +486,4 @@
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0"/>
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
 </manifest>

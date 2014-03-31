@@ -235,15 +235,15 @@
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/av" name="SlimSaber/frameworks_av" remote="github" revision="kk4.4" />
+  <project path="frameworks/base" name="SlimSaber/frameworks_base" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="SlimSaber/android_frameworks_compile_slang" remote="github" revision="kk4.4" />
   <project path="frameworks/ex" name="SlimSaber/android_frameworks_ex" remote="github" revision="kk4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/native" name="SlimSaber/frameworks_native" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
@@ -398,100 +398,4 @@
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
-  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
-  <project path="system/extras" name="SlimSaber/android_system_extras" remote="github" revision="kk4.4" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="SlimSaber/android_system_vold" remote="github" revision="kk4.4" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
-  <project path="platform_manifest" name="SlimSaber-togari/platform_manifest" remote="github" revision="kk4.4-caf" />
-
-  <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimSaber-togari/vendor_slim" remote="github" revision="kk4.4" />
-  
-  <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimSaber/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
-
-  <!-- Slim file manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
-  
-  
-  <!-- Power Hal -->
-  <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
-
-  <!-- Google play services -->
-  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
-
-  <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
-
-  <!--CyanogenMod SamsungServiceMode -->
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
-
-  <!-- CyanogenMod qrngd -->
-  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
-
-  <!-- ************** SLIMSABER ************** -->
-
-  <!-- Scripts -->
-  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="kk4.4" >
-     <copyfile src="build.sh" dest="build.sh" />
-  </project>
-
-  <!-- SaberMod toolchain -->
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
-  <project name="MWisBest/arm-linux-androideabi-4.8-linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="github" revision="master" />
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilt/linux-x86/toolchain/sm-arm-eabi-4.7" remote="github" revision="sm-jb-mr2"/>
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
-  <!--
-  <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilt/linux-x86/toolchain/sm-arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
-  <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
-  -->
-
-  <!-- OmniRom -->
-  <project path="packages/apps/Launcher3" name="SlimSaber/android_packages_apps_Launcher3" remote="github" revision="kk4.4" />
-  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-4.4" />
-
-  <!-- CyanogenMod -->
-  <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />
-
-  <!-- ************** SLIMSABER ************** -->
-  <!--togari-->
-  <project path="device/sony/togari" name="SlimSaber-togari/device_sony_togari" remote="github" revision="kitkat"/>
-  <project path="device/sony/rhine-common" name="SlimSaber-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0-caf"/>
-  <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="github" revision="cm-11.0" />
-  <project path="device/sony/common" name="SlimRoms/device_sony_common" remote="github" revision="kk4.4"/>
-  <project path="device/sony/qcom-common" name="AOKP/android_device_sony_qcom-common" remote="github" revision="kitkat"/>
-  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0"/>
-  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
-</manifest>
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/

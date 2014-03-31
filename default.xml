@@ -106,6 +106,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4"  />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
   <project path="external/freetype" name="SlimSaber/android_external_freetype" remote="github" revision="kk4.4" />
@@ -144,8 +145,8 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="kk4.4-caf" />
-  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="kk4.4-caf" />
+  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="kk4.4" />
+  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="kk4.4" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -228,7 +229,7 @@
   <project path="external/valgrind" name="SlimSaber/android_external_valgrind" remote="github" revision="kk4.4" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="SlimSaber/android_external_webrtc" remote="github" revision="kk4.4" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4-caf" />
+  <project path="external/wpa_supplicant_8" name="SlimSaber/android_external_wpa_supplicant_8" remote="github" revision="kk4.4" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
@@ -268,26 +269,44 @@
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="SlimSaber/hardware_libhardware" remote="github" revision="kk4.4" />
+  <project path="hardware/libhardware_legacy" name="SlimSaber/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
+  <!--
+  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-11.0" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4" />
+  <project path="hardware/ril" name="SlimSaber/hardware_ril" remote="github" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
+  -->
+  <!-- CyanogenMod qcom repos -->
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-11.0" />
+  
+  
   <project path="libcore" name="SlimSaber/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -316,7 +335,7 @@
   <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="kk4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="kk4.4-caf" />
+  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="kk4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="SlimSaber/packages_apps_PackageInstaller" remote="github" revision="kk4.4" />
   <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="kk4.4" />
@@ -392,7 +411,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="kk4.4-caf" />
+  <project path="system/vold" name="SlimSaber/android_system_vold" remote="github" revision="kk4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -407,15 +426,16 @@
 
   <project path="platform_manifest" name="SlimSaber-togari/platform_manifest" remote="github" revision="kk4.4" />
 
-  <!-- New Additions for slim -->
+  <!-- New Additions for slim 
   <project path="vendor/slim" name="SlimSaber-togari/vendor_slim" remote="github" revision="kk4.4" />
-
+  -->
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimSaber/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
 
-  <!-- Slim file manager -->
+  <!-- Slim file manager 
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
-
+  -->
+  
   <!-- Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
@@ -441,31 +461,27 @@
 
   <!-- SaberMod toolchain -->
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="sm-kk-mr1" />
-  <!--
-  <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
-  -->
-  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="sm-jb-mr2"/>
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilt/linux-x86/toolchain/sm-arm-eabi-4.7" remote="github" revision="sm-jb-mr2"/>
 
   <!-- OmniRom -->
   <project path="packages/apps/Launcher3" name="SlimSaber/android_packages_apps_Launcher3" remote="github" revision="kk4.4" />
   <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-4.4" />
-  <project path="external/exfat" name="omnirom/android_external_exfat" remote="github" revision="android-4.4" />
-  <project path="external/fuse" name="omnirom/android_external_fuse" remote="github" revision="android-4.4"/>
 
   <!-- CyanogenMod -->
   <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />
 
   <!-- ************** SLIMSABER ************** -->
+  <!--togari-->
+  <project path="device/sony/togari" name="SlimRoms-togari/android_device_sony_togari" remote="github" revision="kitkat"/>
   
-  <!-- togari-->
-  <project path="device/sony/togari" name="SlimSaber-togari/android_device_sony_togari" remote="github" revision="cm-11.0"/>
   
-  <project path="device/sony/rhine-common" name="SlimSaber-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0"/>
+  <project path="device/sony/rhine-common" name="SlimRoms-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0"/>
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="github" revision="cm-11.0"/>
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
-  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-11.0"/>
-  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-11.0"/>
+  <project path="device/sony/common" name="SlimRoms/device_sony_common" remote="github" revision="kk4.4"/>
+  <project path="device/sony/qcom-common" name="AOKP/android_device_sony_qcom-common" remote="github" revision="kitkat"/>
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="442"/>
-  
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
 </manifest>

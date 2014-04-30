@@ -519,6 +519,8 @@
   <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilt/linux-x86/toolchain/sm-arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
   <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-4.4" />
+  
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
   -->
   
   <!-- OmniRom -->
@@ -531,11 +533,11 @@
   <!--togari-->
   <project path="device/sony/togari" name="SlimSaber-togari/device_sony_togari" remote="github" revision="kitkat"/>
   <project path="device/sony/rhine-common" name="SlimSaber-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0"/>
-  <project path="kernel/sony/msm8974" name="SlimRoms/kernel_sony_msm8974" remote="github" revision="kk4.4" />
+  <project path="kernel/sony/msm8974" name="PimpedKernel/android_kernel_sony_msm8974" remote="github" revision="pimped-caf" />
   <project path="device/sony/common" name="SlimRoms/device_sony_common" remote="github" revision="kk4.4"/>
   <project path="device/sony/qcom-common" name="AOKP/android_device_sony_qcom-common" remote="github" revision="kitkat"/>
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0"/>
-  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
+  
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
   
 </manifest>

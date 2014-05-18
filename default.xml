@@ -540,7 +540,9 @@
 
   <!-- CyanogenMod -->
   <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />
-
+  
+  <project name="UBERUTILS/arm-linux-androideabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" remote="github" revision="master" />
+  <project name="UBERUTILS/arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" remote="github" revision="master" />
   <!-- ************** SLIMSABER ************** -->
   <!--togari-->
   <project path="device/sony/togari" name="SlimSaber-togari/device_sony_togari" remote="github" revision="kitkat"/>

@@ -105,8 +105,8 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="kk4.4" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="kk4.4" />
+  <project path="external/exfat" name="SlimSaber/android_external_exfat" remote="github" revision="kk4.4" />
+  <project path="external/fuse" name="SlimSaber/android_external_fuse" remote="github" revision="kk4.4" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4"  />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
@@ -395,7 +395,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="kk4.4" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="SlimRoms/packages_apps_InCallUI" remote="github" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="SlimSaber/packages_apps_InCallUI" remote="github" revision="kk4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="SlimSaber/packages_apps_LegacyCamera" remote="github" revision="kk4.4" />
@@ -541,9 +541,16 @@
   <!-- OmniRom -->
   <project path="packages/apps/Launcher3" name="SlimSaber/android_packages_apps_Launcher3" remote="github" revision="kk4.4" />
 
+
+<!-- CyanogenMod ffmpeg -->
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-11.0" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-11.0" />
+
   <!-- CyanogenMod -->
   <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />
-  
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-11.0" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-11.0" />
+
   <project name="UBERUTILS/arm-linux-androideabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" remote="github" revision="master" />
   <project name="UBERUTILS/arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" remote="github" revision="master" />
   <!-- ************** SLIMSABER ************** -->

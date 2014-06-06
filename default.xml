@@ -10,6 +10,9 @@
   
   <remote name="ln"
            fetch="git://android.git.linaro.org/" />
+           
+    <remote name="ca"
+           fetch="git://codeaurora.org/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -19,13 +22,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="SlimSaber/platform_abi_cpp" remote="github" revision="kk4.4" />
-  <project path="art" name="SlimSaber/android_art" remote="github" revision="kk4.4"  />
-  <project path="bionic" name="VanirAOSP/bionic" remote="github" revision="kk44" />
+  <project path="art" name="platform/art" remote="ca" revision="kitkat"  />
+  <project path="bionic" name="platform/bionic" remote="ca" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimSaber/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="SlimSaber/android_dalvik" remote="github" revision="kk4.4" />
+  <project path="dalvik" name="platform/dalvik" remote="ca" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -284,7 +287,7 @@
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4.2" />
-  <project path="external/llvm" name="platform/external/llvm" remote="ln" revision="linaro_android_4.4.2" />
+  <project path="external/llvm" name="platform/external/llvm" remote="ca" revision="caf/kitkat" />
   <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.2" />

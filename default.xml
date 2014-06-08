@@ -263,7 +263,7 @@
   <project path="external/freetype" name="SlimSaber/android_external_freetype" remote="github" revision="kk4.4" />
   <project path="external/iputils" name="SlimSaber/android_external_iputils" remote="github" revision="kk4.4" />
   <project path="external/linux-tools-perf" name="SlimSaber/android_external_linux-tools-perf" remote="github" revision="kk4.4" />
-  <project path="external/llvm" name="SlimSaber/android_external_llvm" remote="github" revision="kk4.4" />
+  
   <project path="external/openssh" name="SlimSaber/android_external_openssh" remote="github" revision="kk4.4" />
   <project path="external/openssl" name="SlimSaber/android_external_openssl" remote="github" revision="kk4.4" />
   <project path="external/sonivox" name="SlimSaber/android_external_sonivox" remote="github" revision="kk4.4" />
@@ -288,7 +288,10 @@
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/llvm" name="SlimSaber/android_external_llvm" remote="github" revision="kk4.4" />
+  <!--
   <project path="external/llvm" name="platform/external/llvm" remote="ca" revision="caf/kitkat" />
+  -->
   <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.3" />

@@ -29,7 +29,7 @@
   <project path="dalvik" name="platform/dalvik" remote="ca" revision="kitkat" />
   -->
   <project path="art" name="Slimsaber/android_art" remote="github" revision="kk4.4"  />
-  <project path="bionic" name="SlimSaber/android_bionic" remote="github" revision="kk4.4" />
+  <project path="bionic" name="VanirAOSP/bionic" remote="github" revision="kk44" />
   <project path="dalvik" name="Slimsaber/android_dalvik" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />

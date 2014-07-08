@@ -288,26 +288,26 @@
   <!-- linaro -->
   <project path="external/stlport" name="VanirAOSP/external_stlport" remote="github" revision="kk44" />
   
-  <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/embunit" name="platform/external/embunit" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="android-4.4.4_r1" />
+  <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/elfutils" name="platform/external/elfutils" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/embunit" name="platform/external/embunit" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/llvm" name="SlimSaber/android_external_llvm" remote="github" revision="kk4.4" />
   <!--
   <project path="external/llvm" name="platform/external/llvm" remote="ca" revision="caf/kitkat" />
   -->
-  <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="android-4.4.4_r1" />
+  <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.4" />
   
-  <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="android-4.4.4_r1" />
-  <project path="external/v8" name="platform/external/v8" remote="ln" revision="android-4.4.4_r1" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="android-4.4.4_r1" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="android-4.4.4_r1" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="android-4.4.4_r1" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="android-4.4.4_r1" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4.4" />
   
   <!--
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />

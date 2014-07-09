@@ -97,7 +97,7 @@
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="SlimSaber/android_external_clang" remote="github" revision="kk4.4" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/compiler-rt" name="SlimSaber/android_external_compiler-rt" remote="github" revision="kk4.4" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="SlimSaber/android_external_dnsmasq" remote="github" revision="kk4.4" />
@@ -458,12 +458,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="SlimRoms/packages_wallpapers_PhaseBeam" remote="github" revision="kk4.4" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />

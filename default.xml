@@ -212,7 +212,7 @@
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="SlimSaber/android_external_sqlite" remote="github" revision="kk4.4" />
+  <project path="external/sqlite" name="SlimSaber-togari/android_external_sqlite" remote="github" revision="kk4.4" />
   <project path="external/srec" name="SlimSaber/android_external_srec" remote="github" revision="kk4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/strace" name="platform/external/strace" />

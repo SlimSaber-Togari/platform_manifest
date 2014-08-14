@@ -540,8 +540,10 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
+  <!--
   <project path="device/sony/common" name="device_sony_common" remote="teameos" revision="kk4.4" groups="notdefault,device,sony,nicki" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="teameos" revision="kk4.4" groups="notdefault,device,sony,nicki" />
+  -->
   <project path="device/sony/nicki" name="device_sony_nicki" remote="teameos" revision="kk4.4" groups="notdefault,device,sony,nicki" />
 
   <!-- TeamEos Kernels -->
@@ -591,7 +593,9 @@
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
+  <!--
   <project path="vendor/sony" name="vendor_sony" remote="teameos" revision="kk4.4" groups="notdefault,device,sony,nicki" />
+  -->
   <project path="vendor/T-Mobile/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="teameos" revision="kk4.4" />
   <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" />
   <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" />

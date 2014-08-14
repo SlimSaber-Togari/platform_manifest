@@ -534,7 +534,9 @@
   <project path="device/oppo/find7a" name="device_oppo_find7a" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find7a" />
   <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" remote="teameos" revision="kk4.4" groups="notdefault,device,oneplus,bacon" />
   <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
+  <!--
   <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="kk4.4" groups="qcom" />
+  -->
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,manta" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />

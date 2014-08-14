@@ -1,49 +1,37 @@
-Clone from SlimSaber Github
-Unofficial
-Not working!
+TeamEOS
+===========
+
 
 Getting Started
 ---------------
 
-To get started with SlimKat, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+To get started with TeamEOS, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the SlimKat trees, use this command:
+Init core trees without any device/kernel/vendor :
 
-	repo init -u https://github.com/SlimSaber-togari/platform_manifest.git -b kk4.4
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4
 
+Init repo with all devices, kernels and vendors supported by TeamEOS :
 
-Getting Source
---------------
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,kernel,device,vendor
 
-	repo sync -c -j5 -f
+Init repo only for a particular device :
 
-5 is the number of your cpu processors + 1.
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,-notdefault,<devicename>,<vendorname>
 
+for example, to init only trees needed to build mako :
 
-Building SlimSaber
-------------------
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,-notdefault,mako,lge
 
-	. build/envsetup.sh
-	lunch slim_togari-userdebug
-	make -j5 bacon
+Init repo for multiple devices :
 
-or
-	
-	. build.sh togari sync 5 clean
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,-notdefault,<devicename1>,<devicename2>,<devicename3>,<vendorname1>,<vendorname2>,<vendorname3>
 
-Parameter 1: The device tree: togari
+for example, to init trees needed to build mako and grouper :
 
-Parameter 2: Sync or don't sync the source: sync | nosync
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,-notdefault,mako,grouper,lge,asus
 
-Parameter 3: Number of threads (The number of your cpu processors + 1).
+Then to sync up:
 
-Parameter 4: Make a clean build: clean | [leave it empty]
-
-
-Building SlimKernel
-------------------
-
-	. build/envsetup.sh
-	lunch slim_togari-userdebug
-	make -j5 bootzip
+    repo sync

@@ -505,7 +505,7 @@
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="kk44" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
 
-
+  <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
   
    <!--togari-->
 <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" remote="github" revision="cm-11.0"/>

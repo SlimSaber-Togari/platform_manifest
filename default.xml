@@ -200,6 +200,7 @@
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/libtar" name="android_external_libtar" />
+  <project path="external/libtruezip" name="android_external_libtruezip" />
   <project path="external/libusb" name="android_external_libusb" />
   <project path="external/libusbx" name="android_external_libusbx" />
   <project path="external/libusb-compat" name="android_external_libusb-compat" />
@@ -284,6 +285,7 @@
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
+  <project path="external/unrar" name="android_external_unrar" />
   <project path="external/v8" name="external_v8" remote="vanir" revision="kk44" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
   <project path="external/vim" name="android_external_vim" />
@@ -294,6 +296,7 @@
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
+  <project path="external/zip" name="android_external_zip" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="kk44" groups="pdk" />

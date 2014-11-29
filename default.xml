@@ -496,6 +496,7 @@
 <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.0"/>
 <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
 
+<project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="github" revision="L5" />
   <!-- ************** SLIMSABER ************** -->
 
 </manifest>

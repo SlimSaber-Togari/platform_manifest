@@ -42,7 +42,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="XperiaMultiROM/android_bootable_recovery" remote="gh" revision="master" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs" />
@@ -501,21 +501,21 @@
 
 
 <!--togari-->
-<project path="device/sony/togari" name="CyanogenMod/android_device_sony_togari" remote="github" revision="cm-12.0"/>
-<project path="device/sony/rhine-common" name="CyanogenMod/android_device_sony_rhine-common" remote="github" revision="cm-12.0"/>
+<project path="device/sony/togari" name="CyanogenMod/android_device_sony_togari" remote="gh" revision="cm-12.0"/>
+<project path="device/sony/rhine-common" name="CyanogenMod/android_device_sony_rhine-common" remote="gh" revision="cm-12.0"/>
 <!--
 <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="github" revision="cm-12.0" />
 -->
-<project path="kernel/sony/msm8974" name="Tommy-Geenexus/android_kernel_sony_msm8974" remote="github" revision="master" />
-<project path="device/sony/msm8974-common" name="CyanogenMod/android_device_sony_msm8974-common" remote="github" revision="cm-12.0"/>
-<project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.0"/>
-<project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-12.0"/>
-<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
-<project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.0"/>
-<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
+<project path="kernel/sony/msm8974" name="Tommy-Geenexus/android_kernel_sony_msm8974" remote="gh" revision="master" />
+<project path="device/sony/msm8974-common" name="CyanogenMod/android_device_sony_msm8974-common" remote="gh" revision="cm-12.0"/>
+<project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="gh" revision="cm-12.0"/>
+<project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="gh" revision="cm-12.0"/>
+<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="gh" revision="cm-12.0" />
+<project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="gh" revision="cm-12.0"/>
+<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="gh" revision="cm-12.0" />
 
 
-<project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="github" revision="L5" />
+<project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="gh" revision="L5" />
   <!-- ************** SLIMSABER ************** -->
 
 </manifest>

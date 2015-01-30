@@ -509,6 +509,7 @@
 <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="gh" revision="cm-12.0"/>
 <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="gh" revision="cm-12.0"/>
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="gh" revision="cm-12.0" />
+<project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="gh" revision="cm-12.0" />
 <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="gh" revision="cm-12.0"/>
 
 

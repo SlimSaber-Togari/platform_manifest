@@ -513,8 +513,9 @@
 
 <!--
 <project path="system/extras/libbootimg" name="Tasssadar/libbootimg" remote="gh" revision="master"/>
-<project path="system/extras/multirom" name="XperiaMultiROM/multirom" remote="gh" revision="master"/>
 -->
+<project path="system/extras/multirom" name="XperiaMultiROM/multirom" remote="gh" revision="master"/>
+
 
 <project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="gh" revision="L5" />
   <!-- ************** SLIMSABER ************** -->

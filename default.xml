@@ -515,7 +515,7 @@
 
 <project path="system/extras/libbootimg" name="Tasssadar/libbootimg" remote="gh" revision="master"/>
 <project path="system/extras/multirom" name="XperiaMultiROM/multirom" remote="gh" revision="master"/>
-<project path="system/extras/multirom/adbb" name="Tasssadar/multirom_adbd" remote="gh" revision="master"/>
+<project path="system/extras/multirom/adbd" name="Tasssadar/multirom_adbd" remote="gh" revision="master"/>
 <project path="system/extras/multirom/kexec-tools" name="Tasssadar/kexec-tools" remote="gh" revision="master"/>
 
 

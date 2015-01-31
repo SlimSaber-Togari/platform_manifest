@@ -11,6 +11,9 @@
 
   <remote  name="gh"
            fetch="https://github.com/" />
+           
+  <remote name="bb"
+           fetch="https://bitbucket.org/" />
 
   <remote  name="ls"
            fetch="https://github.com/LiquidSmooth" />
@@ -42,7 +45,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="XperiaMultiROM/android_bootable_recovery" remote="gh" revision="master" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs" />
@@ -512,14 +515,14 @@
 <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="gh" revision="cm-12.0" />
 <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="gh" revision="cm-12.0"/>
 
+<project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="gh" revision="L5" />
 
+<!--project path="bootable/recovery" name="XperiaMultiROM/android_bootable_recovery" remote="gh" revision="master" />
 <project path="system/extras/libbootimg" name="Tasssadar/libbootimg" remote="gh" revision="master"/>
 <project path="system/extras/multirom" name="XperiaMultiROM/multirom" remote="gh" revision="master"/>
 <project path="system/extras/multirom/adbd" name="Tasssadar/multirom_adbd" remote="gh" revision="master"/>
-<project path="system/extras/multirom/kexec-tools" name="Tasssadar/kexec-tools" remote="gh" revision="master"/>
+<project path="system/extras/multirom/kexec-tools" name="Tasssadar/kexec-tools" remote="gh" revision="master"/-->
 
-
-<project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="gh" revision="L5" />
   <!-- ************** SLIMSABER ************** -->
 
 </manifest>

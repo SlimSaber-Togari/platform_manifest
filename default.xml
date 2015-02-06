@@ -12,7 +12,7 @@
   <remote  name="gh"
            fetch="https://github.com/" />
            
-  <remote  name="gh"
+  <remote  name="gitorious"
            fetch="https://gitorious.org/" />
            
   <remote name="bb"

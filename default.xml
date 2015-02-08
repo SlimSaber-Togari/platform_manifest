@@ -520,7 +520,7 @@
 
 
 <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-5.0" />
-<project path="kernel/sony/msm8974" name="Tommy-Geenexus/android_kernel_sony_msm8974" remote="gh" revision="master" />
+<project path="kernel/sony/msm8974" name="GreatDevs/kernel_sony_msm8974" remote="gh" revision="GreatDevs" />
 <!--project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
 <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="github" revision="cm-12.0" />
 

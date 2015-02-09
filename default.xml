@@ -519,7 +519,7 @@
 <project path="vendor/extra" name="VanirAOSP/vendor_qcom_opt" remote="gh" revision="L5" />
 
 
-
+<project path="external/mkqcdtbootimg" name="sonyxperiadev/mkqcdtbootimg" remote="gh" revision="master" />
 <project path="kernel/sony/msm8974" name="GreatDevs/kernel_sony_msm8974" remote="gh" revision="GreatDevs" />
 <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-5.0" />
 <!--project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
